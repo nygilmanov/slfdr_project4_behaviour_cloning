@@ -157,7 +157,6 @@ I used an adam optimizer so that manually training the learning rate wasn't nece
 
 The final video on the test run is  available by the link on run1.mp4 file.
 
-
-https://github.com/nygilmanov/slfdr_project4_behaviour_cloning/run1.mp4
+https://github.com/nygilmanov/slfdr_project4_behaviour_cloning/blob/main/run1.mp4
 
 
