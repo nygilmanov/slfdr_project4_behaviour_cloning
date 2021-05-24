@@ -67,10 +67,10 @@ This preprocessing step should be done for testing phase as well.
 
 #### 2. Attempts to reduce overfitting in the model
 
-To ensure that the model doesn't overfit the data has been split into train,validation and test sets (lines 74-79 of model_generator.py file
+To ensure that the model doesn't overfit the data has been split into train,validation and test sets (lines 74-79 of model_generator.py file)
 
 I have tried to use dropout layers, but this did not help to improve the results much (the car was missing the path)
-I have played with the number of epochs. Early stop, extended data collection process and deeper model arcitecture has improved the final results (5 epochs is the best option).
+I have played with the number of epochs. Early stop, extended data collection process and deeper model architecture has improved the final results (5 epochs is the best option).
 
 
 #### 3. Model parameter tuning
@@ -83,7 +83,7 @@ Training data has been chosen to keep the vehicle driving on the road.
 I have tried to record the behaviour many times.
 
 Mouse usage allowed to drive smothly on turns and not to do cutting movements in general.
-Also tried to record clockwise and have taken 1ap data from the track 2 as simply runing on track1 could be biased to left turns.
+Also tried to record clockwise and have taken 1 lap data from the track 2 as simply runing on track1 could be biased to the left turns.
 Additional augmentation has been used as well(see below)
 
 
@@ -112,7 +112,7 @@ The last 2 chages(deeper network+ data collection) + play with the number of epo
 
 #### 2. Final Model Architecture
 
-The final model architecture (model.py lines 98-115) consisted of a convolution neural network with the following layers and layer sizes 
+The final model architecture (model_generator.py lines 98-115) consisted of a convolution neural network with the following layers and layer sizes 
 
 ![Model](./writeup_images/model_architecture.png)
 
