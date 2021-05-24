@@ -35,8 +35,8 @@ My project includes the following files:
 * model_generator.py containing the script to create and train the model
 * drive.py for driving the car in autonomous mode
 * model_2021_05_17.h5 containing a trained convolution neural network 
-* writeup_report.md or writeup_report.pdf summarizing the results
-* video files containing the result of the training proccess.
+* writeup_report.md  summarizing the results
+* run1.mp4 files containing the result of the training proccess.
 * preprocess.py - support library which containes methods used in model_generator.py
 
 Several support libraries during data collection process
